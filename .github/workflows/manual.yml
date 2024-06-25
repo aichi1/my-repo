@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       greetings:
-        type:string
+        type: string
         default: Hello
         required: true
-        description A cheerful word
+        description: A cheerful word
 jobs:
   run:
     runs-on: ubuntu-latest
